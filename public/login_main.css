@@ -12,6 +12,9 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-default {
+    height: 50px;
+}
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -33,6 +36,29 @@ body {
   width: auto;
 }
 
+.container{
+    height: 50%;
+}
+#logo{
+    display:block;
+    width: 60px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #000000;
+}
+
+.col-lg-4{
+    border: 1px solid darkgray;
+    border-radius: 1em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 31%;
+}
+.col-lg-4>h2{
+    padding-bottom: 20px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
