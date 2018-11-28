@@ -1,16 +1,12 @@
-body {
-    height: 100%;
-  padding-top: 40px;
-  background-color: #ffffff;
-}
-
-.container{
-    height: 70%;
-    width: 25%;
-    padding-top: 1%;
-    border: 1px solid #eee;
-    border-radius: 2em;
+body{
     text-align: center;
+}
+.container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 400px;
+    margin-top: 5%;
+    border: 1px solid darkgray;
 }
 #logo{
     width: 60%;
